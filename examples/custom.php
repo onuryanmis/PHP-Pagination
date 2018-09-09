@@ -8,7 +8,7 @@ $page_config = [
 ];
 
 $sayfalama_ayarlar = [
-    "url" => "index.php",
+    "url" => "custom.php",
     "total" => 20,
     "per_page" => 2,
     "open"=>"<div class='sayfalama'><ul>",
