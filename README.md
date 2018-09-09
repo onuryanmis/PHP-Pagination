@@ -184,7 +184,16 @@ $config["last_page"] = [
 ];
 ```
  
- [PDO ve MySQL örnek uygulama için tıklayın](http://www.webderslerim.com/)
+ 
+Veritabanı sorguları için limit değerini almak
+=======
+ ``` php
+$pagination = new Pagination($config);  
+$limit = $pagination->getLimit();  // Verileri listeletirken sorgumuza göndereceğimiz limit değerini buluyoruz.
+```
+
+
+ [PDO ve MySQL örnek uygulama için tıklayın](http://www.webderslerim.com/ders/php---sayfalama-pagination-sinifi.html)
  
  
  
